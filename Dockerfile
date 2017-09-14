@@ -20,7 +20,7 @@ CMD git fetch origin && git reset --hard origin/master && \
  mkdir -p contrib/native && cd contrib/native && ../bootstrap &&\
  make fetch-all && cd ../.. && rm contrib/tarballs/boost* -rf &&\
  rm -rf contrib/src/boost/ && rm -rf contrib/src/opus/ &&\
- rm contrib/tarballs/opus* -rf &&\
+ rm contrib/tarballs/opus* -rf && rm -rf contrib/src/ffmpeg &&\
  tar -cj . -f ../../ring-daemon_4.0.0.orig.tar.bz2 && \
  dpkg-buildpackage &&\
  cp /*.deb /exportdebs/ -v && cp /*.tar.bz2 /exportdebs/
