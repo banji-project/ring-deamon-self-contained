@@ -16,7 +16,8 @@ Build-Depends: debhelper (>= 9),
  uuid-dev, libudev-dev, libjsoncpp-dev, libnatpmp-dev, cmake, libupnp-dev,
  build-essential, cmake, git, curl, unbound-anchor, chrpath, check, astyle,
  unbound-anchor, chrpath, check, astyle, libva-dev, nettle-dev, libvdpau-dev,
- libopus-dev
+ libopus-dev, libavutil-dev, libavcodec-dev, libboost-system-dev,
+ libboost-random-dev
 
 Package: ring-daemon
 Architecture: any
